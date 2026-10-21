@@ -13,7 +13,7 @@ Live URL: `https://beydadonmezz.github.io/sledpaws-site/`
 
 Developer name: seller name exactly as App Store Connect shows it, **BEYDANUR DONMEZ**; the first mention on each page adds "BEYDANUR DONMEZ (Beydanur Dönmez)".
 
-Effective date of privacy and terms: **16 October 2026**. The texts describe the current build: no account, no ads, no analytics, no in-app purchases, progress only on the device. **Before a build with AdMob or in-app purchases ships, update privacy (§2 to §8), terms (§4) and support, change the effective date, and deploy first** (TASKS.md tracks this).
+Effective date of privacy and terms: **21 October 2026**. The texts describe the monetised build: no account; an age question at first start (under 13 / under the age of digital consent / no answer = child: child-directed non-personalised ads, no ATT prompt, limited analytics); Google AdMob ads with AdMob mediation (optional rewarded ads; interstitials at most every 4th run, never before run 5, never after completing a map; Remove Ads turns them off); Google UMP consent in the EEA/UK/CH, ATT on iOS after consent, choices in the game's Settings → Privacy; Firebase Analytics, Crashlytics and Remote Config; in-app purchases (gem packs, starter pack, Remove Ads, restore) through the App Store and Google Play only; progress only on the device (no cloud save); a KVKK Aydınlatma Metni (privacy §13). **The mediated ad networks are listed in privacy §4 (`#ad-networks`, currently only Google AdMob): add a list item there (en + tr) and change the date before a new network goes live.** Any other change to ads, analytics, purchases or data handling: update privacy, terms and support first, change the date, and deploy before the build ships.
 
 ## Source and publishing
 
